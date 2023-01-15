@@ -1,0 +1,46 @@
+{
+    "name": "esiaso/chartjs",
+    "description": "ChartJs- A simple ChartJs Laravel Package.",
+    "keywords": [
+        "chartjs",
+        "php",
+        "laravel"
+    ],
+    "type": "package",
+    "version": "1.0.1",
+    "license": "MIT",
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Esiaso\\Chartjs\\": "src/"
+        }
+    },
+    "authors": [
+    {
+        "name": "Isaya",
+        "email": "opondo.isaiah@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require":
+    {
+        "php": ">=7.4"
+    },
+    "require-dev":
+    {
+        "phpunit/phpunit": "^9.2"
+    },
+    "autoload-dev":
+    {
+        "psr-4":
+        {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts":
+    {
+        "test": [
+            "vendor/bin/phpunit"
+        ]
+    }
+}
